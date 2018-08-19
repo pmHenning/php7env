@@ -1,4 +1,4 @@
-FROM nimmis/docker-apache-php7
+FROM nimmis/apache-php7
 
 MAINTAINER henningk <forstning@web.de>
 
