@@ -1,4 +1,4 @@
-FROM henningk/php7env
+FROM nimmis/apache
 
 MAINTAINER henningk <17007680+pmHenning@users.noreply.github.com>
 
