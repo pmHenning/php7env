@@ -1,6 +1,6 @@
 FROM nimmis/docker-apache-php7
 
-MAINTAINER nimmis <kjell.havneskold@gmail.com>
+MAINTAINER henningk <forstning@web.de>
 
 # disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
