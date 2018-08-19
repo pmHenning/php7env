@@ -1,6 +1,6 @@
 FROM pmHenning/php7env
 
-MAINTAINER henningk <forstning@web.de>
+MAINTAINER henningk <17007680+pmHenning@users.noreply.github.com>
 
 # disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
