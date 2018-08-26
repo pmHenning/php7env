@@ -6,4 +6,4 @@ MAINTAINER henningk <forstning@web.de>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
-apt-get install -y mysql*
+apt-get install -y mysql-client
