@@ -5,7 +5,4 @@ MAINTAINER henningk <forstning@web.de>
 # disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update
-RUN apt-get upgrade
-RUN apt-get install -y mysql-client
-RUN apt-get install php7.0-bcmath
+RUN apt-get update && apt-get install -y mysql-client && apt-get install php7.0-bcmath
