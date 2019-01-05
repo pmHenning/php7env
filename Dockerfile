@@ -6,5 +6,7 @@ MAINTAINER henningk <forstning@web.de>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
+apt-get install -y --no-install-recommends apt-utils && \
+apt-get upgrade && \
 apt-get install -y mysql-client && \
 apt-get install php7.0-bcmath
